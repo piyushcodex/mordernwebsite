@@ -1,55 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>piyush.camp</title>
-</head>
-<body>
-    <h1 class="header">piyush.camp</h1>
-    <hr>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sint nesciunt suntaspernatur! Reiciendis dignissimos itaque nam, perferendis, eaque libero consequaturtenetur velit laboriosam ipsam rem dicta minus ratione repellendus?</p>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=RocknRoll+One&display=swap');
 
-    <h2>join us</h2>
+* {
+    margin: 0;
+    padding: 0;
+}
 
-    <hr>
+body {
+    background-color: orange;
+}
 
-    <p>Lorem ipsum <b>sit amet consectetur adipisicing elit</b> . Asperiores ad, accusamus repellendus ipsa ducimus fugiat vitae similique hic iure modi. Laboriosam autem accusantium, repellat quasi commodi sequi ut error ex?</p>
+.header:hover {
+    text-align: center;
+    color: blue;
+    background-color: red;
+}
 
-    <h1 class="header2">i am here</h1>
+.header2:hover {
+    text-align: center;
+    color: pink;
+    background-color: purple;
+}
 
-    <hr>
+.header3:hover{
+    background-color: blueviolet;
+    text-align: center;
+    color: salmon;
+    font-family: 'Dancing Script', cursive;
+}
 
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero illum eius quae omnis? Vero alias sunt ad odit dolore, voluptas culpa quos ex? Sit dignissimos, optio ipsam nam labore expedita.</p>
+div:focus {
+    color: springgreen;
+    background-color: violet;
+}
 
-    <h2>doing levelZero</h2>
+a:hover{
+    color:crimson;
+}
 
-    <hr>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, sed cumque quos vero culpa omnis accusamus officia repudiandae autem quasi temporibus, eum blanditiis cum aliquam unde in inventore debitis velit!</p>
-
-    <hr>
-
-    <h1 class="header3">admission in levelone</h1>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus deleniti odit, quod cupiditate iste adipisci voluptatum veniam quibusdam fugit accusantium delectus rerum voluptas error repudiandae totam earum, nobis impedit obcaecati.</p>
-
-    <div>
-        <label for="message">message:</label>
-        <textarea name="enter your message" id="letter" cols="30" rows="10" placeholder="enter your message" ></textarea>
-        <input type="submit" value="send me">
-    </div>
-
-    <h2>levelone detailed course structure  <a href="https://neog.camp/" target="_blank">neog.camp join</a></h2>
-
-    <hr>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque rem nemo, debitis laborum error ducimus, doloribus non dignissimos voluptatum libero quod! Magni modi tempora odio est officiis qui, nisi vero!</p>
-
-    <br>
-    <br>
-    <br>
-</body>
-</html>
